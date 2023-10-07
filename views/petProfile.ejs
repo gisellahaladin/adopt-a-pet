@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../../css/styles.css">
+  <title><%= pet.name %> Profile</title>
+</head>
+<body>
+  <h1><span style="background-color: aqua;"><%= pet.name %>'s Profile</span></h1>
+  <img src="<%= pet.url %>" alt="<%= pet.name %>">
+  <p><%= pet.description %></p>
+  <ul>
+    <li>Breed: <%= pet.breed %></li>
+    <li>Age: <%= pet.age %></li>
+  </ul>
+</body>
+</html>

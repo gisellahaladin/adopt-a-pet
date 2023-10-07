@@ -1,0 +1,53 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <title>Adopt, Don't Shop!</title>
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">SLIME TIME FRIENDS</div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+
+        <li class="services">
+          <a href="/">Services</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul>
+
+        </li>
+
+        <li><a href="/">Pricing</a></li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+  <h1>Adopt a Pet</h1>
+  <p>Browse through the links below to find your slimey friend!</p>
+  <ul>
+    <li><a href="/animals/frogs">Frogs</a></li>
+    <li><a href="/animals/eels">Eels</a></li>
+    <li><a href="/animals/tardigrades">Tardigrades</a></li>
+  </ul>
+</body>
+</html>

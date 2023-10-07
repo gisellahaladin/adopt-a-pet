@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../../css/styles.css">
+  <title>Check out our <%= pet_type %></title>
+</head>
+<body>
+    
+  <h1>Check out our <%= pet_type %></h1>
+  <ul>
+    <% pets.forEach((pet, index) => { %>
+      <li><a href="/animals/<%= pet_type %>/<%= index %>"><%= pet.name %></a></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
